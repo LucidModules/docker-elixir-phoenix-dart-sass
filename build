@@ -1,0 +1,5 @@
+#!/bin/bash
+docker build -t lucidmodules/phoenix-dart:1.12.3 \
+--build-arg ELIXIR_VERSION=1.12.3 \
+--build-arg DART_VERSION=2.15.1 \
+.
