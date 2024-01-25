@@ -2,6 +2,15 @@
 Docker image suitable for local development and compiling Elixir applications for ARM64 architecture.
 Tested with docker-in-docker CI for GitLab.
 
+## Docker Hub Registry
+You can pull this image from the Docker Hub Registry:
+
+```shell
+docker pull lucidmodules/docker-elixir-phoenix-dart-sass:latest
+```
+
+Link to the [lucidmodules/docker-elixir-phoenix-dart-sass](https://hub.docker.com/repository/docker/lucidmodules/docker-elixir-phoenix-dart-sass/general) container repository.
+
 ## Configuration and usage
 There is a Dart Sass library for Elixir Phoenix:
 https://github.com/CargoSense/dart_sass
