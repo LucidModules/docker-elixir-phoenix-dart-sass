@@ -19,4 +19,4 @@ RUN \
 ENV DART_SDK /usr/lib/dart
 ENV PATH $DART_SDK/bin:/root/.pub-cache/bin:$PATH
 
-RUN pub global activate sass
+RUN dart pub global activate sass
