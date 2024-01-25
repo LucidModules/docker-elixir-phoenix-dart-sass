@@ -1,9 +1,9 @@
-ARG ELIXIR_VERSION=1.12.3
+ARG ELIXIR_VERSION=1.13.4
 
 # Extend from the official Elixir image
 FROM elixir:$ELIXIR_VERSION
 
-ARG DART_VERSION=2.15.1
+ARG DART_VERSION=2.19.6
 
 # Compile dart
 WORKDIR /tmp/
